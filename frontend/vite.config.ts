@@ -16,7 +16,7 @@ export default defineConfig({
   define: {
     API_BASE_URL: JSON.stringify(
       process.env.NODE_ENV === 'production'
-        ? 'https://api.votredomaine.com/api'
+        ? 'https://api-crh.ajna-ci.site/api'
         : 'http://localhost:8000/api'
     ),
   },
